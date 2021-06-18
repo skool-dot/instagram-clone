@@ -1,0 +1,41 @@
+.sideNav {
+    height: 100%;
+    position: fixed;
+    width: 0;
+    z-index: 91;
+    bottom: 0;
+    right: 0;
+    background-color: #282B34;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+
+
+.sidenav-image {
+
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 4px;
+    height: 65px;
+    width: 65px;
+}
+
+.sideNav-btn {
+
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 9px ;
+    margin: auto;
+    border-radius: 0%;
+    
+}
+
+@media only screen and (max-width: 1200px) { 
+
+    .sidenav-image {
+        width: 60px;
+        height: 60px;
+    }
+ } 
